@@ -1,0 +1,15 @@
+.jumbotron{
+    background: url("../img/bayarea-banner_1600x384.jpg") no-repeat right center;
+    -webkit-background-size: auto 100%;
+    -moz-background-size: auto 100%;
+    -o-background-size: auto 100%;
+    background-size: auto 100%;
+}
+
+.media>.pull-left {
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 24px;
+}

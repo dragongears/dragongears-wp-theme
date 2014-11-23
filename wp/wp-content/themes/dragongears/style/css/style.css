@@ -1,0 +1,389 @@
+/*======================================
+			WELCOME TO THE STYLESHEET
+--------------------------------------
+		 Copyright Mike Crittenden
+			Author: Mike Crittenden
+======================================*/
+
+/**************************************\
+|------------COLOR SCHEME--------------|
+|--------------------------------------|
+- black		#000
+- white		#fff
+\**************************************/
+
+/**************************************/
+/*              GLOBALS               */
+/**************************************/
+html {
+	overflow-y: scroll;
+}
+
+body {
+	background-color: #fff;
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+/*a:link { text-decoration: underline; color: #68361B; }*/
+/*a:visited { text-decoration: underline; color: #68361B; }*/
+/*a:hover { text-decoration: underline; color: #c33; }*/
+/*a:active, a:focus { text-decoration: underline; color: #000; }*/
+.disclaimer {
+	font-size: 0.8em;
+	line-height: 1.4em;
+}
+
+/**************************************/
+/*              HEADER                */
+/**************************************/
+
+#head {
+	background: #fff url(../img/paper.jpg) no-repeat scroll 0 0;
+	border-radius: 5px 5px 0px 0px;
+	-moz-border-radius: 5px 5px 0px 0px;
+	-webkit-border-radius: 5px 5px 0px 0px;
+	border-left: 1px solid #420;
+	border-right: 1px solid #420;
+	border-top: 1px solid #420;
+}
+
+h1 {
+	margin: 18px 0 0 16px;
+	position: relative;
+}
+
+h1 a {
+	background: transparent url(../img/drag_ngears.png) no-repeat scroll 0 0;
+	display: block;
+	height: 53px;
+	overflow: hidden;
+	text-decoration: none;
+	text-indent: -9000px;
+	width: 520px;
+}
+
+h1 img {
+	display: block;
+	position: absolute;
+	top: 3px;
+	left: 142px;
+	z-index: 2;
+}
+
+#head p {
+	margin-left: 16px;
+	margin-bottom: 0.8em;
+	font-size: 1.4em;
+	color: #fff;
+	font-family: "Warnock Pro", "Goudy Old Style", "Palatino", "Book Antiqua", Georgia, serif;
+	font-style: italic;
+	font-weight: normal;
+	text-shadow: 1px 1px 1px #000;
+}
+
+#searchform {
+	padding-top: 40px;
+}
+
+#searchform input {
+	float: left;
+	vertical-align: middle;
+	width: 130px;
+	margin-right: 3px;
+}
+
+#searchform button {
+	float: left;
+	vertical-align: middle;
+	padding: 1px 8px;
+}
+
+/**************************************/
+/*             NAVIGATION             */
+/**************************************/
+
+#breadcrumbs {
+	background-color: #000;
+	border-bottom: 1px solid #aaa;
+	font-size: 1.2em;
+}
+
+#breadcrumbs a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#breadcrumbs a:hover {
+	color: #ccc;
+}
+
+#breadcrumbs ul {
+	margin-top: 2px;
+}
+
+#breadcrumbs ul li {
+	border-right: 1px solid #420;
+	padding-right: 12px;
+	margin: 0 0 0 12px;
+	float: left;
+}
+
+#breadcrumbs ul li:last-child {
+	border-right: none;
+	padding-right: 0;
+}
+
+#social img {
+	margin: 0 3px;
+}
+
+#social {
+	text-align: right;
+	padding: 10px 0 12px 0;
+}
+
+/**************************************/
+/*            MAIN CONTENT            */
+/**************************************/
+
+#content {
+	background: #fff url(../img/tile_paper_yellow.jpg) repeat-y scroll right 0;
+	border-radius: 0px 0px 5px 5px;
+	-moz-border-radius: 0px 0px 5px 5px;
+	-webkit-border-radius: 0px 0px 5px 5px;
+	border-left: 1px solid #420;
+	border-right: 1px solid #420;
+	border-bottom: 1px solid #420;
+}
+
+.widget {
+	margin-right:8px;
+}
+
+#am_headline {
+	font-size: 1.2em;
+}
+
+#side {
+}
+
+#side h2 {
+}
+
+#side a:link {
+	text-decoration: none;
+	color: #000;
+}
+
+#side a:hover {
+	text-decoration: none;
+	color: #ddd;
+}
+
+#side a:active, #side a:focus {
+	text-decoration: none;
+	color: #000;
+}
+
+.main {
+	text-shadow: 1px 1px 1px #fff;
+	min-height:650px;
+}
+
+.main a {
+	color: #960;
+}
+
+.main a:hover {
+	color: #555;
+}
+
+.main h2 {
+	margin-bottom: 1.0em;
+}
+
+.main h2 a {
+	text-decoration: none;
+}
+
+.main {
+	/*background: #fff url(../img/gearsbg.png) no-repeat scroll 0 0;*/
+}
+
+.main h3 {
+	margin-top: 48px;
+}
+
+.main ul.gears {
+	float: left;
+	margin-top: 12px;
+}
+
+.main ul.gears li {
+	background: transparent url(../img/gear.png) no-repeat scroll 0 3px;
+	padding-left: 24px;
+	padding-bottom: 2px;
+	margin-top: 4px;
+	font-weight: bold;
+	clear: both;
+}
+
+.widget > ul > li > ul {
+	font-weight: normal;
+	margin-left: 8px;
+}
+
+.main .listhead {
+	margin-bottom: 0.6em;
+	font-weight: bold;
+}
+
+.main img.border {
+	background-color: #fff;
+	border: 1px solid #888;
+	padding: 1px;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+/*.main a:visited { text-decoration: underline; color: #E57F0D; }*/
+
+/**************************************/
+/*               FOOTER               */
+/**************************************/
+
+#foot {
+	margin-top: 24px;
+}
+
+/**************************************/
+/*                                    */
+/**************************************/
+
+#home h2 {
+	margin-left: 0;
+	color: #000;
+	text-shadow: 1px 1px 1px #fff;
+}
+
+#home h2 img {
+	vertical-align: middle;
+	margin-right: 2px;
+}
+
+#home h3 {
+	text-align: center;
+	margin-top: 46px;
+	text-shadow: 1px 1px 1px #fff;
+}
+
+#home #more {
+	margin-top: 20px;
+}
+
+#home .app {
+	padding-top: 28px;
+}
+
+#home .app .cat {
+	margin-top: 24px;
+}
+
+#home .app .divider {
+	margin-top: 12px;
+}
+
+#home #classic {
+	margin-top: 36px;
+	background-color: #ffc;
+	border: solid 1px #420;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+#home #classic p {
+	margin-top: 12px;
+	margin-left: 12px;
+}
+
+/**************************************/
+/*                                    */
+/**************************************/
+
+#palmos h3 img {
+	border: solid 1px #999;
+	padding: 2px;
+	background-color: #fff;
+}
+
+#palmos .divimg {
+	text-align: center;
+	margin-top: 18px;
+}
+
+#palmos .divimg img {
+	border: 0;
+	background-color: transparent;
+}
+
+/**************************************/
+/*                                    */
+/**************************************/
+
+#single #sorry, #notfound h2, #search {
+	padding-bottom: 520px;
+}
+
+/**************************************/
+/*                                    */
+/**************************************/
+
+#index .post {
+	margin-top:40px;
+	border-top: solid 1px #cacacd;
+}
+
+#index .post:first-child {
+	margin-top:0px;
+	border-top: none;
+}
+
+.post {
+    position: relative;
+}
+.entryDate {
+    border: 1px solid #999;
+    font-family: Georgia,"Times New Roman", serif;
+    line-height: 1;
+    position: absolute;
+    top: 4px;
+		right: 4px;
+    width: 3.0em;
+}
+.entryDate span {
+    display: block;
+    text-align: center;
+}
+.postMonth {
+    text-transform: uppercase;
+    font-size: 1.0em;
+    padding-top: 0.3em;
+}
+.postDay {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.postYear {
+    background-color: #E57F0D;
+    color: #FFF;
+    font-size: 1.0em;
+    padding: 0.3em 0;
+    margin-top: 0.3em;
+		text-shadow: none;
+}
+

@@ -14,8 +14,8 @@
 			} elseif ( is_day() || is_month() || is_year() ) {
 			echo 'Archives:'; wp_title('');
 			} else {
+			echo wp_title('|', true, 'right');
 			echo bloginfo('name');
-			echo wp_title('--');
 			}
 			?>
 		</title>
